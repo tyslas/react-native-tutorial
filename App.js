@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
-import { Text } from 'react-native';
+import { Text, Image } from 'react-native';
+
 
 export default class App extends Component {
   render() {
     return (
-      <Text>Hello World!</Text>
+      <Image source={require('./ballotbox-logo-blue-31405a.png')} style={{width: 470, height: 130}} />
     );
   }
 }
